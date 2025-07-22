@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -39,9 +39,77 @@
     <footer class="footer">
         <div class="footer-content">
           <p>&copy; <?php echo date("Y"); ?> Fast Delivery. All Rights Reserved.</p>
-          <li>For inquires or assistance please contact us ●Phone: +123-456-789 ●support@delivery.com</li>
+          <P> ● For inquires or assistance please contact us <br> ● Phone: +123-456-789 <br> ● support@delivery.com</p>
         </div>
       </footer>
     
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fast Home Delivery</title>
+  <link rel="stylesheet" href="LandingPage.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">FastDelivery</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Get Anything Delivered<br><span>Fast & Safely</span></h1>
+      <p>From groceries to electronics, we deliver everything to your doorstep in minutes.</p>
+      <button onclick="scrollToSection('contact')">Order Now</button>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section id="features" class="features">
+    <h2>Why Choose Us</h2>
+    <div class="feature-box">
+      <div class="feature">🚀 Super Fast Delivery</div>
+      <div class="feature">🔒 Safe & Secure</div>
+      <div class="feature">📍 Real-Time Tracking</div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services">
+    <h2>What We Deliver</h2>
+    <ul>
+      <li>🍕 Food & Beverages</li>
+      <li>📦 Parcels & Packages</li>
+      <li>🛍️ Clothes & Essentials</li>
+      <li>💊 Medicines</li>
+    </ul>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>Call us at +123-456-789 or email: <a href="mailto:support@delivery.com">support@delivery.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; <span id="year"></span> FastDelivery. All rights reserved.</p>
+  </footer>
+
+  <script src="LandingPage.js"></script>
 </body>
 </html>
